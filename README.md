@@ -9,7 +9,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 
 | Date        | Jason | Ravi |
 |-------------|------|-------|
-| Nov 11 (Sat)|  X   |       |
+| Nov 11 (Sat)|  X   | X     |
 | Nov 15 (Wed)|      |       |
 | Nov 18 (Sat)|      |       |
 | *Nov 22 (Wed)* |       |           |  <!-- Skipped for Thanksgiving -->
