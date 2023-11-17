@@ -1,8 +1,8 @@
 # IS601-Project
 IS601 Final Group Project
 
-# Competitive Analysis
-
+# Business Analysis
+- <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
 
 
 
