@@ -3,6 +3,7 @@ IS601 Final Group Project
 
 # Business Analysis
 - <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
+- <a src=Documentation/One_Persona.md>One Persona</a>
 
 
 
