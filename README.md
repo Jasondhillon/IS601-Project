@@ -1,6 +1,12 @@
 # IS601-Project
 IS601 Final Group Project
 
+# Business Analysis
+- <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
+- <a src=Documentation/One_Persona.md>One Persona</a>
+
+
+
 # Meeting Sign-In Sheet
 
 Each student should put an 'X' under their name on the days they have meetings.
@@ -10,7 +16,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 | Date        | Jason | Ravi |
 |-------------|------|-------|
 | Nov 11 (Sat)|  X   | X     |
-| Nov 15 (Wed)|      |       |
+| Nov 15 (Wed)|  X   |       |
 | Nov 18 (Sat)|      |       |
 | *Nov 22 (Wed)* |       |           |  <!-- Skipped for Thanksgiving -->
 | *Nov 25 (Sat)* |       |           | <!-- Skipped for Thanksgiving -->
