@@ -5,7 +5,8 @@ IS601 Final Group Project
 - <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
 - <a src=Documentation/One_Persona.md>One Persona</a>
 
-
+# Figma Link
+https://www.figma.com/file/TbmaXBVmxdoe1hQJnvzhZy/Final-Project-Figma-Designs?type=design&node-id=1%3A2&mode=design&t=3mHlBQGgUWc4qt3h-1
 
 # Meeting Sign-In Sheet
 
@@ -17,7 +18,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 |-------------|------|-------|
 | Nov 11 (Sat)|  X   | X     |
 | Nov 15 (Wed)|  X   | X     |
-| Nov 18 (Sat)|      |       |
+| Nov 18 (Sat)|  X   |       |
 | *Nov 22 (Wed)* |       |           |  <!-- Skipped for Thanksgiving -->
 | *Nov 25 (Sat)* |       |           | <!-- Skipped for Thanksgiving -->
 
