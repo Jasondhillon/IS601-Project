@@ -1,10 +1,8 @@
-# SWOT_Analysis
-Identify the Strengths Weaknesses Oportunities, and Threats
+# SWOT Analysis
+Strengths Weaknesses Oportunities, and Threats of the J&R Cafe
 
 | | Strength | Weakness | Opportunity | Threats |
 |-|-----------------|-----------|----------------|---------------|
-| |Quick Service | Dine-in space | Quick Bites | Competition |
-| |Brand         | Price         | Diverse Menu| Healthy Conscious  |
-| |Quality       | Marketing     |             | Cash & Credit line |
-| |Location      |               |             |  |
-| |Technology Adaptability |     |             |  |
+| |Open Late | Marketing | Free wifi | Competition |
+| |Affordable | Large amount of staff needed | Hire on-site tutors|   |
+| |Location | | Promote through social media |   | |
