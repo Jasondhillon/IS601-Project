@@ -22,7 +22,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 |-------------|------|-------|
 | Nov 11 (Sat)|  X   | X     |
 | Nov 15 (Wed)|  X   | X     |
-| Nov 18 (Sat)|  X   |       |
+| Nov 18 (Sat)|  X   | X     |
 | *Nov 22 (Wed)* |       |           |  <!-- Skipped for Thanksgiving -->
 | *Nov 25 (Sat)* |       |           | <!-- Skipped for Thanksgiving -->
 
@@ -30,10 +30,10 @@ Each student should put an 'X' under their name on the days they have meetings.
 
 | Date        | Jason | Ravi|
 |-------------|-----------|-----------|
-| Nov 29 (Wed)|           |           |
-| Dec 2 (Sat) |           |           |
-| Dec 6 (Wed) |           |           |
-| Dec 9 (Sat) |           |           |
-| Dec 13 (Wed)|           |           |
+| Nov 29 (Wed)|           | X         |
+| Dec 2 (Sat) |           | X         |
+| Dec 6 (Wed) |           | X         |
+| Dec 9 (Sat) |           | X         |
+| Dec 13 (Wed)|           | X         |
 
 *Instructions: Please place an 'X' in the cell under your name corresponding to the dates you attend class.*
