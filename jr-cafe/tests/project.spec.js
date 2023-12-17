@@ -100,3 +100,8 @@ test('Check Email Link', async ({ page }) => {
   await page.goto(homeURL);
   await expect(page.locator('#Mail')).toBeVisible();
 });
+
+test('Check Instagram Link', async ({ page }) => {
+  await page.goto(homeURL);
+  await expect(page.locator('#InLink')).toBeVisible();
+});
