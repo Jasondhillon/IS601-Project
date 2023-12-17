@@ -23,3 +23,10 @@ test('Check Hero Section - Homepage', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page.locator('section').nth(1)).toHaveId('herosection');
 });
+
+test('Check About Section - Homepage', async ({ page }) => {
+  await page.goto(homeURL);
+
+  // Expect a title "to contain" a substring.
+  await expect(page.locator('section').nth(2)).toHaveId('subsection');
+});
