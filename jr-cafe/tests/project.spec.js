@@ -57,3 +57,15 @@ test('Check Gallery Section - Gallery page', async ({ page }) => {
 
   await expect(page.locator('section').nth(1)).toHaveId('gallerySection');
 });
+
+test('Check Social Section - all pages', async ({ page }) => {
+  await page.goto(homeURL);
+
+  await expect(page.locator('#socialsection')).toBeVisible();
+  await page.goto(menuURL);
+
+  await expect(page.locator('#socialsection')).toBeVisible();
+  await page.goto(galleryURL);
+
+  await expect(page.locator('#socialsection')).toBeVisible();
+});
