@@ -25,7 +25,6 @@ export default function Header() {
         "Home",
         "Menu",
         "Gallery",
-        "Newsletter"
         // "Analytics",
         // "Help & Feedback",
         // "Log Out",
@@ -66,9 +65,7 @@ export default function Header() {
               {/* <p className="font-bold text-inherit">JR Cafe</p> */}
           </a>
         </NavbarBrand>
-      </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
           <Link color="foreground" aria-current="page" href="/">
             Home
@@ -84,22 +81,8 @@ export default function Header() {
             Gallery
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="/Newsletter">
-            Newsletter
-          </Link>
-        </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
+
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
@@ -109,7 +92,6 @@ export default function Header() {
               }
               className="w-full"
               href="#"
-              Size="lg"
             >
               {item}
             </Link>
