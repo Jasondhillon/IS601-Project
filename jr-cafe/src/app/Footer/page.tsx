@@ -76,7 +76,7 @@ export default function Footer() {
 
 function SocialIcons() {
   return (
-    <div className="footer-setting" flex gap-2>
+    <div className='footer-setting flex gap-2' >
       {/* GitHub icon */}
       <a
         href="mail:admin@jrcafe.com"

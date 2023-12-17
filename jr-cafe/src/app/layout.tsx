@@ -7,7 +7,6 @@ import CookieBanner from './CookieBanner/page';
 import { GA_MEASUREMENT_IDS } from './Public/constants';
 import { Inter, Medula_One, Maven_Pro, Bad_Script } from 'next/font/google'
 import { NextUIProvider } from "@nextui-org/react";
-import { Providers } from './Providers/page';
 
 const inter = Medula_One({ weight: '400', subsets: ['latin'], fallback: ['Medula_One'] })
 
@@ -40,13 +39,13 @@ export default function RootLayout({
       <body className={inter.className}>
 
         <div className='container'>
-          <Providers>
+          {/* <Providers> */}
             <Header />
             <main className='{inter.className}'>{children}</main>
             <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_IDS} />
             <CookieBanner />
             <Footer />
-          </Providers>
+          {/* </Providers> */}
 
         </div>
 

@@ -103,7 +103,7 @@ export default function Home() {
           <span className='text-center' style={{ fontSize: "xxx-large" }}>A Café That Stays up as late you do...
           </span>
           <p className="group rounded-lg border border-transparent " style={{ fontSize: "400" }}>J&R Café, Established in 2023, is designed around the students, starting off as humble college students ourselves, We tackled our fair share of late night cram sessions before our tests. But, as the nights went on our energy dwindled, and big chains
-            like Starbucks and Dunkin` aren't open when we need them. We Know we weren't the first to face the situation, but hopefully we can be the last. Proudly presenting J&R Café open all night long.
+            like Starbucks and Dunkin` arent open when we need them. We Know we werent the first to face the situation, but hopefully we can be the last. Proudly presenting J&R Café open all night long.
           </p>
           {/* <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
