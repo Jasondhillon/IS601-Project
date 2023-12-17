@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+#NavbarHeader {
+  justify-content: none !important;
+}
+
 nav{
   background-color: #211e24 !important;
 }
