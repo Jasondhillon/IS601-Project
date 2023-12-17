@@ -49,11 +49,11 @@ test('Check Menu Section - Menu page', async ({ page }) => {
 test('Check Accordian Element - Menu page', async ({ page }) => {
   await page.goto(menuURL);
 
-  await expect(page.locator('accordion').first()).toBeVisible();
+  await expect(page.locator('#accordian')).toBeVisible();
 });
 
 test('Check Gallery Section - Gallery page', async ({ page }) => {
   await page.goto(galleryURL);
 
-  await expect(page.locator('accordion').first()).toBeVisible();
+  await expect(page.locator('section').nth(1)).toHaveId('gallerySection');
 });

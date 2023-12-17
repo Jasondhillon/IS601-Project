@@ -26,7 +26,7 @@ export default function About() {
     };
 
     return (
-        <section className='Section-Setting mb-5' id='aboutSection' style={{zIndex:10000}}>
+        <section className='Section-Setting mb-5' id='gallerySection' style={{zIndex:10000}}>
             <main className="" style={{
                 //backgroundImage: `url(${bg.src})`,
             }}>
