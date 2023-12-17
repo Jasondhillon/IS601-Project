@@ -1,6 +1,8 @@
 # IS601-Project
 IS601 Final Group Project
 
+<a src="https://docs.google.com/presentation/d/1faP4Dp4cHeU-8A7E41OaL2NlqED99aKVKjt5rRHeuKA/edit?usp=sharing">Powerpoint Presentation</a>
+
 # Business Analysis
 - <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
 - <a src=Documentation/SWOT_Analysis.md>SWOT Analysis</a>
