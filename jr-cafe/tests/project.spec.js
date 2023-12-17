@@ -2,6 +2,7 @@
 const { test, expect } = require('@playwright/test');
 const homeURL = 'http://localhost:3000';
 const menuURL = 'http://localhost:3000/Menu';
+const galleryURL = 'http://localhost:3000/Gallery';
 
 test('Check Title - Homepage', async ({ page }) => {
   await page.goto(homeURL);
@@ -48,5 +49,11 @@ test('Check Menu Section - Menu page', async ({ page }) => {
 test('Check Accordian Element - Menu page', async ({ page }) => {
   await page.goto(menuURL);
 
-  await expect(page.locator('Accordion').first().isVisible();
+  await expect(page.locator('#accordian')).toBeVisible();
+});
+
+test('Check Gallery Section - Gallery page', async ({ page }) => {
+  await page.goto(galleryURL);
+
+  await expect(page.locator('section').nth(1)).toHaveId('gallerySection');
 });

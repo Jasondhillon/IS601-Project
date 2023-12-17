@@ -27,7 +27,7 @@ import {
             <main className="border-white">
                 <h2 className='flex justify-center '  style={{color: '#eee', fontFamily:'Bad_Script'}} >Menu</h2>
 <div className='border-2 border-neutral-300'>
-                <Accordion defaultExpandedKeys={["1"]} fullWidth={true}>
+                <Accordion defaultExpandedKeys={["1"]} fullWidth={true} id="accordian">
       <AccordionItem key="1" aria-label="Expresso Beverages" title="Expresso Beverages">
         
       <div className="grid grid-flow-row-dense grid-cols-5 grid-rows-3 ...">
