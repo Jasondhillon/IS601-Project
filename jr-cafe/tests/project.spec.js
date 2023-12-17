@@ -105,3 +105,8 @@ test('Check Instagram Link', async ({ page }) => {
   await page.goto(homeURL);
   await expect(page.locator('#InLink')).toBeVisible();
 });
+
+test('Check Twitter Link', async ({ page }) => {
+  await page.goto(homeURL);
+  await expect(page.locator('#TwitterLink')).toBeVisible();
+});
