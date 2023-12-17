@@ -1,2 +1,2 @@
-//export const GA_MEASUREMENT_IDS='G-MXDBW4JBEX'; //Global
-export const GA_MEASUREMENT_IDS='G-4BXYPE5C9J'; //MYSITE
+export const GA_MEASUREMENT_IDS='G-MXDBW4JBEX'; //Global
+//export const GA_MEASUREMENT_IDS='G-4BXYPE5C9J'; //MYSITE
