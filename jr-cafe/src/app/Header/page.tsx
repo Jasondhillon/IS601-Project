@@ -24,7 +24,7 @@ export default function Header() {
     const menuItems = [
         "Home",
         "Menu",
-        "About",
+        "Gallery",
         "Newsletter"
         // "Analytics",
         // "Help & Feedback",
@@ -80,8 +80,8 @@ export default function Header() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/About">
-            About
+          <Link color="foreground" href="/Gallery">
+            Gallery
           </Link>
         </NavbarItem>
         <NavbarItem>
