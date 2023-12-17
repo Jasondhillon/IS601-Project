@@ -3,8 +3,9 @@ IS601 Final Group Project
 
 # Business Analysis
 - <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
+- <a src=Documentation/SWOT_Analysis.md>SWOT Analysis</a>
 - <a src=Documentation/One_Persona.md>One Persona</a>
-
+- <a src=Documentation/UX_Testing_Report.md>UX Testing Report</a>
 # Figma Link
 https://www.figma.com/file/TbmaXBVmxdoe1hQJnvzhZy/Final-Project-Figma-Designs?type=design&node-id=1%3A2&mode=design&t=3mHlBQGgUWc4qt3h-1
 
