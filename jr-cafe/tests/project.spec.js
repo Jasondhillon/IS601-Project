@@ -95,3 +95,8 @@ test('Check SEO Description', async ({ page }) => {
   const metaKeywords = await page.getAttribute('meta[name="description"]', 'content');
   expect(metaKeywords).toBe(expectedMetaDescription);
 });
+
+test('Check Email Link', async ({ page }) => {
+  await page.goto(homeURL);
+  await expect(page.locator('#Mail')).toBeVisible();
+});
