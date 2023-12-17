@@ -10,3 +10,9 @@ test('Check Title - Homepage', async ({ page }) => {
   await expect(page).toHaveTitle("JR Cafe - Home");
 });
 
+test('Check Navbar - Homepage', async ({ page }) => {
+  await page.goto(homeURL);
+
+  // Expect a title "to contain" a substring.
+  await expect(page.locator('nav').first()).toBeVisible();
+});
