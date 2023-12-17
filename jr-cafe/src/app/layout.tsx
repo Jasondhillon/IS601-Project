@@ -28,7 +28,7 @@ export default function RootLayout({
         <title>JR Cafe - Home</title>
         <meta charSet='utf-8' />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="JR Cafe" />
+        <meta name="description" content="Fuel your late night study session with a free coffee" />
         <meta name="keywords" content="CAFE, cafe, JR, jr, cafe with a twist, jr cafe, JR CAFE" />
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" as="style" />
