@@ -109,7 +109,6 @@ export default function Header() {
               }
               className="w-full"
               href="#"
-              Size="lg"
             >
               {item}
             </Link>
