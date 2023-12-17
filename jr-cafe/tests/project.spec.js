@@ -48,5 +48,5 @@ test('Check Menu Section - Menu page', async ({ page }) => {
 test('Check Accordian Element - Menu page', async ({ page }) => {
   await page.goto(menuURL);
 
-  await expect(page.locator('Accordion').first().isVisible();
+  await expect(page.locator('accordion').first()).toBeVisible();
 });
