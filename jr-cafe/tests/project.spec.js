@@ -30,3 +30,10 @@ test('Check About Section - Homepage', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page.locator('section').nth(2)).toHaveId('subsection');
 });
+
+test('Check Call to Action - Homepage', async ({ page }) => {
+  await page.goto(homeURL);
+
+  // Expect a title "to contain" a substring.
+  await expect(page.getByText('Sign up to receive coffee on the house!')).toBeVisible();
+});
