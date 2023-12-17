@@ -3,6 +3,8 @@ const { test, expect } = require('@playwright/test');
 const homeURL = 'http://localhost:3000';
 const menuURL = 'http://localhost:3000/Menu';
 const galleryURL = 'http://localhost:3000/Gallery';
+const expectedMetaDescription = 'This is an example NFT website coded from a Figma tutorial';
+const expectedMetaKeywords = 'CAFE, cafe, JR, jr, cafe with a twist, jr cafe, JR CAFE';
 
 test('Check Title - Homepage', async ({ page }) => {
   await page.goto(homeURL);
@@ -80,4 +82,10 @@ test('Check Location - all pages', async ({ page }) => {
   await page.goto(galleryURL);
 
   await expect(page.locator('#location')).toBeVisible();
+});
+
+test('Check SEO Meta Keywords', async ({ page }) => {
+  await page.goto(homeURL);
+  const metaKeywords = await page.getAttribute('meta[name="keywords"]', 'content');
+  expect(metaKeywords).toBe(expectedMetaKeywords);
 });
