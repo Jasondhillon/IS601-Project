@@ -44,3 +44,9 @@ test('Check Menu Section - Menu page', async ({ page }) => {
 
   await expect(page.locator('section').nth(1)).toHaveId('MenuSection');
 });
+
+test('Check Accordian Element - Menu page', async ({ page }) => {
+  await page.goto(menuURL);
+
+  await expect(page.locator('Accordion').first().isVisible();
+});
