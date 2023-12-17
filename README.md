@@ -1,13 +1,14 @@
 # IS601-Project
 IS601 Final Group Project
 
-<a src="https://docs.google.com/presentation/d/1faP4Dp4cHeU-8A7E41OaL2NlqED99aKVKjt5rRHeuKA/edit?usp=sharing">Powerpoint Presentation</a>
+
+[Powerpoint Presentation](https://docs.google.com/presentation/d/1faP4Dp4cHeU-8A7E41OaL2NlqED99aKVKjt5rRHeuKA/edit?usp=sharing)
 
 # Business Analysis
-- <a src=Documentation/Competitive_Analysis.md>Competitive Analysis</a>
-- <a src=Documentation/SWOT_Analysis.md>SWOT Analysis</a>
-- <a src=Documentation/One_Persona.md>One Persona</a>
-- <a src=Documentation/UX_Testing_Report.md>UX Testing Report</a>
+- [Competitive Analysis](Documentation/Competitive_Analysis.md)
+- [SWOT Analysis](Documentation/SWOT_Analysis.md)
+- [One Persona](Documentation/One_Persona.md)
+- [UX Testing Report](Documentation/UX_Testing_Report.md)
 # Figma Link
 https://www.figma.com/file/TbmaXBVmxdoe1hQJnvzhZy/Final-Project-Figma-Designs?type=design&node-id=1%3A2&mode=design&t=3mHlBQGgUWc4qt3h-1
 
