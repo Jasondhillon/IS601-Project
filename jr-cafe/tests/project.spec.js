@@ -69,3 +69,15 @@ test('Check Social Section - all pages', async ({ page }) => {
 
   await expect(page.locator('#socialsection')).toBeVisible();
 });
+
+test('Check Location - all pages', async ({ page }) => {
+  await page.goto(homeURL);
+
+  await expect(page.locator('#location')).toBeVisible();
+  await page.goto(menuURL);
+
+  await expect(page.locator('#location')).toBeVisible();
+  await page.goto(galleryURL);
+
+  await expect(page.locator('#location')).toBeVisible();
+});
