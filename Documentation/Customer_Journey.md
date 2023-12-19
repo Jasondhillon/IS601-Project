@@ -6,7 +6,7 @@
 ## Epics:
 - (Awareness): John Smith finds the J&R Cafe through social media or from searching "cafe's near my university" on Google/Google Maps.
 
-- (Interest):  Joey arrives at the homepage and is immediately met with an image that shows a large cafe filled with people and plenty of seating(likability). Reading the first headline, he learns that this cafe is geared towards night owls like himself(commitment). Additionally, there is an offer for a free coffee for signing up for the cafe's newsletter (repricocity). Finally, he sees posts from other students/customers of their experience visiting the cafe (consensus/social proof).
+- (Interest):  John arrives at the homepage and is immediately met with an image that shows a large cafe filled with people and plenty of seating(likability). Reading the first headline, he learns that this cafe is geared towards night owls like himself(commitment). Additionally, there is an offer for a free coffee for signing up for the cafe's newsletter (repricocity). Finally, he sees posts from other students/customers of their experience visiting the cafe (consensus/social proof).
 
 - (Action): John is prompted to sign up for the cafe's newsletter to receive a free coffee
 
