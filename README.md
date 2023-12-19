@@ -30,10 +30,10 @@ Each student should put an 'X' under their name on the days they have meetings.
 
 | Date        | Jason | Ravi|
 |-------------|-----------|-----------|
-| Nov 29 (Wed)|           | X         |
-| Dec 2 (Sat) |           | X         |
-| Dec 6 (Wed) |           | X         |
-| Dec 9 (Sat) |           | X         |
-| Dec 13 (Wed)|           | X         |
+| Nov 29 (Wed)|X          | X         |
+| Dec 2 (Sat) |X          | X         |
+| Dec 6 (Wed) |X          | X         |
+| Dec 9 (Sat) |X          | X         |
+| Dec 13 (Wed)|X          | X         |
 
 *Instructions: Please place an 'X' in the cell under your name corresponding to the dates you attend class.*
