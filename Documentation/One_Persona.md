@@ -11,7 +11,7 @@
 ### Motivations:
 - Cheap Coffee
 - Highly available food and drink at all hours of the day
-- Consistent quality
+- Convenient location to study at
 
 ### Biggest Challenges:
 - Budget
