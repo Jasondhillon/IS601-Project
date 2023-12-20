@@ -68,8 +68,8 @@ export default function Home() {
                 src="/jr-cafe-high-resolution-logo-white-transparent.png"
                 alt="Comp Logo"
                 className=""
-                width={250}
-                height={200}
+                width={450}
+                height={400}
                 priority
               />
             </a>
