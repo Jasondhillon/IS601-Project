@@ -82,7 +82,6 @@ export default function Header() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
