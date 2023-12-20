@@ -96,8 +96,8 @@ export default function Home() {
             </div>
 
             <div className="" style={{ marginTop: '-10%' }}>
-              {/* <Subscribe/> */}
-              <Input
+              <Subscribe/>
+              {/* <Input
                 isClearable
                 type="email"
                 label="Email"
@@ -107,7 +107,7 @@ export default function Home() {
                 onClear={() => console.log("input cleared")}
                 className="max-w-xs"
                 labelPlacement="outside"
-              />
+              /> */}
             </div>
           </div>
           <div className="grid grid-flow-col gap-10 auto-cols-max flex justify-center">

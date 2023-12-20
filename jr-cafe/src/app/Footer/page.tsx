@@ -2,14 +2,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaGithub, FaTwitter, FaLinkedin, FaFileDownload, FaLinkedinIn } from 'react-icons/fa';
 import { Input } from "@nextui-org/react";
+import Subscribe from './../Subscribe/page';
+
 // Define the Footer component
 export default function Footer() {
   return (
     <div className='footer-section'>
       <section className='' id='socialsection'>
         <footer className='text-white sticky '>
-          <div className='flex gap-1 w-full bg-zinc-900' id="footer">
-            <div className="grid grid-flow-col gap-10 auto-cols-max" id="footericon">
+          <div className='flex gap-1 w-full bg-zinc-900 flex justify-evenly' id="footer">
+            <div className="grid grid-flow-col gap-10 auto-cols-max " id="footericon">
               <div className='flex items-center'>
                 <Image
                   src="/jr-cafe-high-resolution-logo-white-transparent.png"
@@ -61,6 +63,7 @@ export default function Footer() {
                       Signup for our Newsletter
                     </div>
                     <div className="flex justify-center items-center">
+                      
                       <Input type="email" label="Email" placeholder="Enter your email" />
                     </div>
                 </div>
@@ -76,7 +79,8 @@ export default function Footer() {
 function SocialIcons() {
   return (
 
-    <div className='footer-setting flex gap-2 grid grid-flow-row gap-10 auto-rows-max' >
+    <div className='footer-setting flex gap-4 grid grid-flow-row gap-10 auto-rows-max' >
+      <span></span>
       <a
         href="mail:admin@jrcafe.com"
         target="_blank"
