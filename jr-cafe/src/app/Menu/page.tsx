@@ -83,6 +83,32 @@ import {
 
       <AccordionItem key="7" aria-label="Soft Drinks" title="Soft Drinks">
         
+      <div className="grid grid-flow-row-dense grid-cols-5 grid-rows-3 ...">
+<div className="col-span-2"></div>
+<div>Small</div>
+<div>Medium</div>
+<div>Large</div>
+<div className="col-span-2 ">Coke.......................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">Sprite......................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">Fanta.....................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">Dr. Pepper................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">Root Beer.....................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+</div>
       </AccordionItem>
     </Accordion>
     </div>
