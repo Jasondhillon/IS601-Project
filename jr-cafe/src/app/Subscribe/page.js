@@ -11,7 +11,7 @@ export default function Subscribe() {
     const form_values = Object.fromEntries(formData);
     console.log(form_values['email']);
     // 3. Send a request to our API with the user's email address.
-    const res = await fetch('/Public/subscribe', {
+    const res = await fetch('/api/subscribe', {
       body: JSON.stringify({
         email: form_values['email'],
       }),
