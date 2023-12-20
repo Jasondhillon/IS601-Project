@@ -70,7 +70,24 @@ import {
       </AccordionItem>
 
       <AccordionItem key="4" aria-label="Tea" title="Tea">
-        
+      <div className="grid grid-flow-row-dense grid-cols-5 grid-rows-3 ...">
+<div className="col-span-2"></div>
+<div>Small</div>
+<div>Medium</div>
+<div>Large</div>
+<div className="col-span-2 ">Earl Grey.......................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">English Breakfast......................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+<div className="col-span-2">Chai.....................................</div>
+<div>2.95</div>
+<div>3.95</div>
+<div>4.95</div>
+</div>
       </AccordionItem>
 
       <AccordionItem key="5" aria-label="Seasonal" title="Seasonal">
