@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next'
 import './globals.css'
 import Header from './Header/page';
@@ -7,6 +8,7 @@ import CookieBanner from './CookieBanner/page';
 import { GA_MEASUREMENT_IDS } from './Public/constants';
 import { Inter, Medula_One, Maven_Pro, Bad_Script } from 'next/font/google'
 import { NextUIProvider } from "@nextui-org/react";
+import * as React from "react";
 
 const inter = Medula_One({ weight: '400', subsets: ['latin'], fallback: ['Medula_One'] })
 
@@ -46,7 +48,6 @@ export default function RootLayout({
             <CookieBanner />
             <Footer />
           {/* </Providers> */}
-
         </div>
 
       </body>
