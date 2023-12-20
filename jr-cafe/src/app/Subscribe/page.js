@@ -1,16 +1,17 @@
+
 'use client';
 import React, { useRef, useState } from 'react';
 import {Input, Button } from "@nextui-org/react";
 export default function Subscribe() {
   const [message, setMessage] = useState('');
 
-  const subscribe = async (e: any) => {
+  const subscribe = async (e) => {
     e.preventDefault();
     var formData = new FormData(e.target);
     const form_values = Object.fromEntries(formData);
     console.log(form_values['email']);
     // 3. Send a request to our API with the user's email address.
-    const res = await fetch('/api/subscribe', {
+    const res = await fetch('/Public/subscribe', {
       body: JSON.stringify({
         email: form_values['email'],
       }),
@@ -48,7 +49,10 @@ export default function Subscribe() {
           : `* Promotion can only be claimed once per customer. Some restrictions may apply.`}
       </div>
       
-        <Button type="submit" size="lg" color='primary' variant="flat" style={{marginTop: '5%'}} className=''>{'Subscribe'}</Button>
+        <Button  style={{margin: "7px",
+    backgroundColor: "darkgreen",
+    width: "40%",
+    height: "5vh", marginTop:'5%'}}    type="submit" size="lg" color='primary' variant="flat" className='rounded-full'>{'Subscribe'}</Button>
     </form>
   );
 }

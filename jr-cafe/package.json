@@ -16,14 +16,18 @@
     "@playwright/test": "^1.40.1",
     "@types/mailchimp__mailchimp_marketing": "^3.0.17",
     "@types/md5": "^2.3.5",
+    "axios": "^1.6.2",
     "client-only": "^0.0.1",
     "md5": "^2.3.0",
     "next": "^14.0.4",
     "playwright": "^1.40.1",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-preset-env": "9.3.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
-    "react-modal": "^3.16.1"
+    "react-modal": "^3.16.1",
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "@nextui-org/react": "^2.2.9",

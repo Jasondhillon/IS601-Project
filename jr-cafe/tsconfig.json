@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/Subscribe/page.js"
+    "src/app/Subscribe/page.ts"
   ],
   "exclude": [
     "node_modules"
