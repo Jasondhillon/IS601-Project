@@ -43,12 +43,12 @@ export default function Home() {
   return (
     <section id="herosection" >
 
-      <main className="" style={{
+      <main className="flex justify-center items-center" style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: 'contain',
         //width: '75vw',
         height: '50vh',
-      }}>
+      }} >
 
 
         <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex">
