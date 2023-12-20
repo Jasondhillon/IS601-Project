@@ -5,7 +5,7 @@ import { useState } from "react";
 import bg1 from '../../public/rr-abrot-pNIgH0y3upM-unsplash.jpg';
 import bg from '../../public/bg1.webp';
 
-import Subscribe  from "./Subscribe/page";
+import Subscribe from "./Subscribe/page";
 export default function Home() {
   const [checked, setChecked] = useState(false);
 
@@ -55,10 +55,7 @@ export default function Home() {
 
 
         <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex">
-          {/* <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p> */}
+
           <div className="fixed bottom-0 left-0 flex h-48 w-full items-center justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
             <a
               className="pointer-events-none flex grid place-items-stretch place-content-stretch gap-2 p-8 lg:pointer-events-auto lg:p-0"
@@ -88,30 +85,30 @@ export default function Home() {
             like Starbucks and Dunkin` arent open when we need them. We Know we werent the first to face the situation, but hopefully we can be the last. Proudly presenting J&R Café open all night long.
           </p>
         </div>
-        <div style={{width: "100%", marginLeft:"15%" }} className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-        <div className="grid grid-flow-row mt-12 gap-10 flex justify-end auto-rows-max">
-          <div className="flex items-center" style={{ }}>
-                <p className='text-center' style={{fontSize: "xx-large"}}>Sign up to receive a free coffee!</p>
-          </div>
-            
-          <div className="" style={{ alignItems: "center", marginTop:"-8%" }}>
-                <p className='text-center'>Need a little pick me up? Join our mailing list and receive one free coffee on the house *</p>
-          </div>
+        <div style={{ width: "100%", marginLeft: "15%" }} className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+          <div className="grid grid-flow-row mt-12 gap-10 flex justify-end auto-rows-max">
+            <div className="flex items-center" style={{}}>
+              <p className='text-center' style={{ fontSize: "xx-large" }}>Sign up to receive a free coffee!</p>
+            </div>
 
-          <div className="" style={{marginTop:'-10%'}}>
-            {/* <Subscribe/> */}
-            <Input
-              isClearable
-              type="email"
-              label="Email"
-              variant="bordered"
-              placeholder="Enter your email"
-              defaultValue=""
-              onClear={() => console.log("input cleared")}
-              className="max-w-xs"
-              labelPlacement="outside"
-            /> 
-          </div>
+            <div className="" style={{ alignItems: "center", marginTop: "-8%" }}>
+              <p className='text-center'>Need a little pick me up? Join our mailing list and receive one free coffee on the house *</p>
+            </div>
+
+            <div className="" style={{ marginTop: '-10%' }}>
+              {/* <Subscribe/> */}
+              <Input
+                isClearable
+                type="email"
+                label="Email"
+                variant="bordered"
+                placeholder="Enter your email"
+                defaultValue=""
+                onClear={() => console.log("input cleared")}
+                className="max-w-xs"
+                labelPlacement="outside"
+              />
+            </div>
           </div>
           <div className="grid grid-flow-col gap-10 auto-cols-max flex justify-center">
 
@@ -122,16 +119,16 @@ export default function Home() {
                 //className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                 src="/rizky-subagja-1k7TnX5GAww-unsplash.jpg"
                 alt="Subscribe Logo"
-          
+
                 width={400}
                 height={400}
-                style={{objectFit:"cover"}}
+                style={{ objectFit: "cover" }}
                 priority
 
               />
             </div>
           </div>
-          </div>
+        </div>
 
         {/* <div className=" mt-1">
               <div className="flex mb-1">
