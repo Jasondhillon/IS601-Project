@@ -3,6 +3,7 @@ import { Input } from "@nextui-org/react";
 import Image from 'next/image';
 import { useState } from "react";
 import bg from '../../public/rr-abrot-pNIgH0y3upM-unsplash.jpg';
+import { Subscribe } from "./Subscribe/page";
 export default function Home() {
   const [checked, setChecked] = useState(false);
 
@@ -174,14 +175,18 @@ export default function Home() {
         </a> */}
         </div>
         <div className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-          <div className="h-20" style={{ alignItems: "center" }}>
-            <p className='text-center'>Sign up to receive coffee on the house!</p>
+        <div className="grid grid-flow-row mt-12 gap-10 flex justify-end auto-rows-max">
+          <div className="flex items-center" style={{ }}>
+                <p className='text-center' style={{fontSize: "xx-large"}}>Sign up to receive a free coffee!</p>
           </div>
-          <div>
+            
+          <div className="" style={{ alignItems: "center", marginTop:"-8%" }}>
+                <p className='text-center'>Need a little pick me up? Join our mailing list and receive one free coffee on the house *</p>
+          </div>
 
-          </div>
-          <div>
-            <Input
+          <div className="" style={{marginTop:'-10%'}}>
+            <Subscribe/>
+            {/* <Input
               isClearable
               type="email"
               label="Email"
@@ -190,25 +195,30 @@ export default function Home() {
               defaultValue=""
               onClear={() => console.log("input cleared")}
               className="max-w-xs"
-            />
+              labelPlacement="outside"
+            /> */}
+          </div>
+          </div>
+          <div className="grid grid-flow-col gap-10 auto-cols-max flex justify-center">
+
+            <div className="flex" style={{ borderRadius: '300px', overflow: 'hidden', width: '300px', height: '300px' }}>
+
+              <Image
+                className='HomepageLogo'
+                //className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                src="/rizky-subagja-1k7TnX5GAww-unsplash.jpg"
+                alt="Subscribe Logo"
+          
+                width={400}
+                height={400}
+                style={{objectFit:"cover"}}
+                priority
+
+              />
+            </div>
+          </div>
           </div>
 
-          <div style={{ borderRadius: '300px', overflow: 'hidden', width: '300px', height: '300px' }}>
-
-            <Image
-              className='HomepageLogo'
-              //className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/rizky-subagja-1k7TnX5GAww-unsplash.jpg"
-              alt="Subscribe Logo"
-              objectFit="cover"
-              width={400}
-              height={400}
-              priority
-
-            />
-          </div>
-
-        </div>
         {/* <div className=" mt-1">
               <div className="flex mb-1">
                 <svg
