@@ -28,10 +28,10 @@ export default function Footer() {
 
               <div id="location" className='flex justify-center items-center' >
                 <span>
-                  location<br/>
-                  1234 Cafe Way<br/>          
-                  Queens, NY<br/>  
-                  11101<br/>
+                  location <br/>
+                  1234 Cafe Way <br/>          
+                  Queens, NY <br/>  
+                  11101 <br/>
                 </span>
               </div>
               <div >
