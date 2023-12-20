@@ -66,7 +66,6 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* By{' '} */}
               <Image
                 src="/jr-cafe-high-resolution-logo-white-transparent.png"
                 alt="Comp Logo"
@@ -78,29 +77,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-        {/* <div className="mt-0 grid text-center  w-full lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-12 lg:text-left"> */}
-        {/* <div className="mb-32 grid text-center  w-full lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-12 lg:text-left"> */}
-
-        {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full
-        before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl 
-        before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 
-        after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] 
-        before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 
-        after:dark:fro m-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"> */}
-        {/* <Image
-            className='HomepageLogo'
-          //className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/rr-abrot-pNIgH0y3upM-unsplash.jpg"
-          alt="JR Cafe Logo"
-          width={100}
-          height={100}
-          priority
-        />
-      </div> */}
       </main>
 
       <section id="subsection">
-
         <div style={{ width: "50%", marginLeft: "25%" }} className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
 
           <span className='text-center' style={{ fontSize: "xxx-large" }}>A Café That Stays up as late you do...
@@ -108,73 +87,6 @@ export default function Home() {
           <p className="group rounded-lg border border-transparent " style={{ fontSize: "400" }}>J&R Café, Established in 2023, is designed around the students, starting off as humble college students ourselves, We tackled our fair share of late night cram sessions before our tests. But, as the nights went on our energy dwindled, and big chains
             like Starbucks and Dunkin` arent open when we need them. We Know we werent the first to face the situation, but hopefully we can be the last. Proudly presenting J&R Café open all night long.
           </p>
-          {/* <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a> */}
         </div>
         <div style={{width: "100%", marginLeft:"15%" }} className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
         <div className="grid grid-flow-row mt-12 gap-10 flex justify-end auto-rows-max">
