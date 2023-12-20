@@ -2,7 +2,9 @@
 import { Input } from "@nextui-org/react";
 import Image from 'next/image';
 import { useState } from "react";
-import bg from '../../public/rr-abrot-pNIgH0y3upM-unsplash.jpg';
+import bg1 from '../../public/rr-abrot-pNIgH0y3upM-unsplash.jpg';
+import bg from '../../public/bg1.webp';
+
 import Subscribe  from "./Subscribe/page";
 export default function Home() {
   const [checked, setChecked] = useState(false);
@@ -174,7 +176,7 @@ export default function Home() {
           </p>
         </a> */}
         </div>
-        <div className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <div style={{width: "100%", marginLeft:"15%" }} className="mb-32 grid text-center flex justify-between lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
         <div className="grid grid-flow-row mt-12 gap-10 flex justify-end auto-rows-max">
           <div className="flex items-center" style={{ }}>
                 <p className='text-center' style={{fontSize: "xx-large"}}>Sign up to receive a free coffee!</p>
@@ -185,8 +187,8 @@ export default function Home() {
           </div>
 
           <div className="" style={{marginTop:'-10%'}}>
-            <Subscribe/>
-            {/* <Input
+            {/* <Subscribe/> */}
+            <Input
               isClearable
               type="email"
               label="Email"
@@ -196,7 +198,7 @@ export default function Home() {
               onClear={() => console.log("input cleared")}
               className="max-w-xs"
               labelPlacement="outside"
-            />  */}
+            /> 
           </div>
           </div>
           <div className="grid grid-flow-col gap-10 auto-cols-max flex justify-center">
