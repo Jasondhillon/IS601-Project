@@ -33,7 +33,7 @@ test('Check About Section - Homepage', async ({ page }) => {
 test('Check Call to Action - Homepage', async ({ page }) => {
   await page.goto(homeURL);
 
-  await expect(page.getByText('Sign up to receive coffee on the house!')).toBeVisible();
+  await expect(page.getByText('Need a little pick me up? Join our mailing list and receive one free coffee on the house *')).toBeVisible();
 });
 
 test('Check Email Input Box - Homepage', async ({ page }) => {
@@ -103,10 +103,12 @@ test('Check Email Link', async ({ page }) => {
 
 test('Check Instagram Link', async ({ page }) => {
   await page.goto(homeURL);
-  await expect(page.locator('#InLink')).toBeVisible();
+  await expect(page.locator('#InLink').first()).toBeVisible();
+  await expect(page.locator('#InLink').last()).toBeVisible();
 });
 
 test('Check Twitter Link', async ({ page }) => {
   await page.goto(homeURL);
-  await expect(page.locator('#TwitterLink')).toBeVisible();
+  await expect(page.locator('#TwitterLink').first()).toBeVisible();
+  await expect(page.locator('#TwitterLink').last()).toBeVisible();
 });
