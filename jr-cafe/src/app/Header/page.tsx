@@ -97,6 +97,27 @@ export default function Header() {
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
+
+      <div className='flex gap-2 grid grid-flow-col gap-10 auto-cols-max mr-2' >
+
+      <a
+        href="https://instagram.com/JRcafe"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="InLink"
+      >
+        <Image className='' src='/Instagram-Logo-White-png.png' title='Instagram' alt='instagram' width={30} height={30} priority />
+      </a>
+
+      <a
+        href="https://twitter.com/jrcafe"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="TwitterLink"
+      >
+        <Image className='' src='/white-twitter-logo-icon-8.png' title='Twitter Handle' alt='Twitter Handle' width={30} height={30} priority />
+      </a>
+    </div>
     </Navbar>
      </header>
     </section>
