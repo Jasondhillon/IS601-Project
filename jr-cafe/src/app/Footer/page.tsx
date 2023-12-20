@@ -21,18 +21,17 @@ export default function Footer() {
                   priority
                 />
               </div>
-              <div id="socialicons">
-                <div className='grid grid-flow-row gap-10 auto-rows-max'>
+
+              <div id="socialicons" className='mt-3'>
                   <SocialIcons></SocialIcons>
-                </div>
               </div>
 
-              <div id="location" className='flex justify-center items-center'>
+              <div id="location" className='flex justify-center items-center' >
                 <span>
-                  location
-                  1234 Cafe Way
-                  Queens, NY
-                  11101
+                  location<br/>
+                  1234 Cafe Way<br/>          
+                  Queens, NY<br/>  
+                  11101<br/>
                 </span>
               </div>
               <div >
@@ -76,8 +75,8 @@ export default function Footer() {
 
 function SocialIcons() {
   return (
-    <div className='footer-setting flex gap-2' >
-      {/* GitHub icon */}
+
+    <div className='footer-setting flex gap-2 grid grid-flow-row gap-10 auto-rows-max' >
       <a
         href="mail:admin@jrcafe.com"
         target="_blank"

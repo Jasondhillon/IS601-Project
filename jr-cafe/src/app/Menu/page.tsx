@@ -31,7 +31,6 @@ import {
       <AccordionItem key="1" aria-label="Expresso Beverages" title="Expresso Beverages">
         
       <div className="grid grid-flow-row-dense grid-cols-5 grid-rows-3 ...">
-
 <div className="col-span-2"></div>
 <div>Small</div>
 <div>Medium</div>
