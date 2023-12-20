@@ -15,8 +15,9 @@ import {
     NavbarMenuItem,
     Button, Card, CardHeader, CardBody, Image, Avatar, User, CardFooter
 } from "@nextui-org/react";
-import bg from '../../../public/michal-parzuchowski-ItaV89TNkks-unsplash.jpg';
+import bg1 from '../../../public/michal-parzuchowski-ItaV89TNkks-unsplash.jpg';
 import img1 from "../../../public/roland-denes-24CcFvbRsBE-unsplash.jpeg"
+import bg from './../../../../jr-cafe/public/bg3.webp';
 
 export default function About() {
     var isFollowed: boolean = false;
@@ -27,9 +28,10 @@ export default function About() {
 
     return (
         <section className='Section-Setting mb-5' id='gallerySection' style={{zIndex:10000}}>
-            <main className="" style={{
-                //backgroundImage: `url(${bg.src})`,
-            }}>
+            <main className="border-white" style={{
+                backgroundImage: `url(${bg.src})`,
+                backgroundSize: 'contain'}}
+                >
                 <div className='flex justify-center '>
                     <h2 style={{ color: '#eee' }} >Gallery</h2>
                 </div>
