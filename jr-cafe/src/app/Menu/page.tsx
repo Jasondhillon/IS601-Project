@@ -35,8 +35,8 @@ export default function Menu() {
         <div className='border-2 border-neutral-300' style={{backgroundColor: 'black', marginTop: "0%", marginLeft:"10%", marginRight:"10%", marginBottom:"5%"}}>
           <h2 className='flex justify-center ' style={{ color: '#eee', fontFamily: 'Bad_Script' }} >Menu</h2>
 
-          <Accordion defaultExpandedKeys={["1"]} fullWidth={true} id="accordian">
-            <AccordionItem key="1" aria-label="Expresso Beverages" title="Expresso Beverages">
+          <Accordion className='text-white' defaultExpandedKeys={["1"]} fullWidth={true} id="accordian">
+            <AccordionItem key="1" className='' aria-label="Expresso Beverages" title="Expresso Beverages">
 
               <div className="grid grid-flow-row-dense grid-cols-5 grid-rows-3 ...">
                 <div className="col-span-2"></div>

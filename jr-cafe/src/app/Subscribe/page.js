@@ -50,7 +50,7 @@ export default function Subscribe() {
       </div>
       
         <Button  style={{margin: "7px",
-    backgroundColor: "darkgreen",
+    backgroundColor: "darkgray",
     width: "40%",
     height: "5vh", marginTop:'5%'}}    type="submit" size="lg" color='primary' variant="flat" className='rounded-full'>{'Subscribe'}</Button>
     </form>

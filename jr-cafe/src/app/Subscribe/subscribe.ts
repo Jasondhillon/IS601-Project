@@ -16,16 +16,16 @@ export default async function handler(
   // Initialize the Mailchimp client
 
   mailchimp.setConfig({
-    apiKey: process.env.MAILCHIMP_API_KEY,
-    server: process.env.MAILCHIMP_API_SERVER,
+    apiKey: '659e8afbdeb8913ad62b6b10039731f0-us21',
+    server: 'us21',
   });
 
   try {
     const addNew = await mailchimp.lists.addListMember(
-      String(process.env.MAILCHIMP_AUDIENCE_ID),
+      String('a97715f0ec.'),
       {
         email_address: email,
-        status: "subscribed",
+        status: 'subscribed',
       }
     );
 

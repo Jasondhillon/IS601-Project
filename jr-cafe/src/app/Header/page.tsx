@@ -64,9 +64,7 @@ export default function Header() {
             
               {/* <p className="font-bold text-inherit">JR Cafe</p> */}
           </a>
-        </NavbarBrand>
-
-        <NavbarItem isActive>
+          <NavbarItem isActive>
           <Link color="foreground" aria-current="page" href="/">
             Home
           </Link>
@@ -81,6 +79,9 @@ export default function Header() {
             Gallery
           </Link>
         </NavbarItem>
+        </NavbarBrand>
+
+        
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
